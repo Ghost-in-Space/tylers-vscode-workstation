@@ -1,0 +1,65 @@
+{
+	"name": "dotenv-sanitize",
+	"displayName": "dotenv-sanitize",
+	"description": "Sanitize your dotenv files to easily create examples, or cleanup before a commit.",
+	"publisher": "jacob-ebey",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/jacob-ebey/dotenv-santize"
+	},
+	"version": "1.0.0",
+	"engines": {
+		"vscode": "^1.40.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"activationEvents": [
+		"onCommand:dotenvSanitize.sanitizeFile"
+	],
+	"main": "./out/extension.js",
+	"contributes": {
+		"configuration": [
+			{
+				"title": "dotenv-sanitize",
+				"properties": {
+					"editor.dotenvSecretReplacement": {
+						"type": "string",
+						"default": "your-value",
+						"description": "The value to replace string secrets with in your .env (dotenv) files.",
+						"scope": "window"
+					}
+				}
+			}
+		],
+		"commands": [
+			{
+				"command": "dotenvSanitize.sanitizeFile",
+				"title": "Dotenv: Sanitize File"
+			}
+		]
+	},
+	"scripts": {
+		"vscode:prepublish": "npm run compile",
+		"compile": "tsc -p ./",
+		"watch": "tsc -watch -p ./",
+		"pretest": "npm run compile",
+		"test": "node ./out/test/runTest.js"
+	},
+	"devDependencies": {
+		"@types/glob": "^7.1.1",
+		"@types/mocha": "^5.2.7",
+		"@types/node": "^12.11.7",
+		"@types/vscode": "^1.40.0",
+		"glob": "^7.1.5",
+		"mocha": "^6.2.2",
+		"typescript": "^3.6.4",
+		"tslint": "^5.20.0",
+		"vscode-test": "^1.2.2"
+	},
+	"__metadata": {
+		"id": "5e837e4c-2e92-4a8d-aeea-2d1d047c51bf",
+		"publisherId": "7b54a07b-14df-4841-ba97-1d6c482162b2",
+		"publisherDisplayName": "jacob-ebey"
+	}
+}

@@ -1,0 +1,32 @@
+{
+	"name": "darcula-extra",
+	"displayName": "Darcula Extra",
+	"description": "A theme extension for VS Code based on rokorokus wonderful port of Darcula theme from Jetbrains IDEs",
+	"version": "0.5.0",
+	"publisher": "kraftwer1",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/kraftwer1/vscode-theme-darcula-extra"
+	},
+	"engines": {
+		"vscode": "^1.24.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"icon": "icon.png",
+	"contributes": {
+		"themes": [
+			{
+				"label": "Darcula Extra",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Darcula Extra-color-theme.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "d9af5dfb-068e-4755-b08a-a295721b3d6a",
+		"publisherId": "5950a5ed-8ae1-440c-ab69-7382f4b63dd3",
+		"publisherDisplayName": "kraftwer1"
+	}
+}

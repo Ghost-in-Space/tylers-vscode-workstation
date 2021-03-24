@@ -1,0 +1,55 @@
+{
+	"name": "e-ink",
+	"version": "1.2.0",
+	"description": "An e-ink theme like for vscode",
+	"scripts": {
+		"make": "vsce publish",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [
+		"e-ink",
+		"high",
+		"contrast",
+		"black",
+		"and",
+		"white",
+		"white",
+		"black",
+		"gray",
+		"electronic",
+		"ink"
+	],
+	"author": {
+		"name": "edd"
+	},
+	"icon": "pen.png",
+	"license": "ISC",
+	"publisher": "eddjrn",
+	"engines": {
+		"vscode": "^1.0.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "e-ink",
+				"uiTheme": "vs",
+				"path": "./themes/e-ink.json"
+			}
+		]
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://gitlab.com/eddjrn/vs-code-e-ink-theme"
+	},
+	"dependencies": {
+		"vsce": "^1.81.1"
+	},
+	"__metadata": {
+		"id": "6e4e601c-0723-4c80-aeb2-244291404edd",
+		"publisherId": "33afc844-f500-434c-9b9d-33e664bb03c5",
+		"publisherDisplayName": "eddjrn"
+	}
+}

@@ -1,0 +1,28 @@
+{
+	"name": "cobalt2-italic",
+	"displayName": "Cobalt2-italic",
+	"description": "Italic theme for Cobalt2. Better support for Dank Mono",
+	"version": "0.0.2",
+	"publisher": "shobhit01",
+	"repository": "https://github.com/Shobhit1/cobalt2-italic",
+	"engines": {
+		"vscode": "^1.28.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Cobalt2 Italic",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Cobalt2 Italic-color-theme.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "191f7218-1386-4453-82d5-de27789b4a1c",
+		"publisherId": "ea24cb8a-695b-4319-b512-a3f086699bec",
+		"publisherDisplayName": "Shobhit"
+	}
+}

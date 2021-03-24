@@ -1,0 +1,105 @@
+{
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.formatOnPaste": true,
+    "sync.autoUpload": true,
+    "sync.autoDownload": true,
+    "sync.quietSync": true,
+    "sync.gist": "2e34f2785ccdb5d4eaa8303fe035201e",
+    "editor.renameOnType": true,
+    "editor.minimap.enabled": true,
+    "explorer.confirmDelete": false,
+    "breadcrumbs.enabled": true,
+    "css.validate": true,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.tabSize": 2,
+    "editor.autoIndent": "full",
+    "editor.insertSpaces": true,
+    "editor.formatOnSave": false,
+    "editor.renderWhitespace": "all",
+    "editor.wordWrapColumn": 80,
+    "editor.wordWrap": "off",
+    "editor.detectIndentation": true,
+    "editor.rulers": [
+        80
+    ],
+    "files.associations": {
+        "*.inc": "php",
+        "*.module": "php",
+        "*.install": "php",
+        "*.theme": "php",
+        "*.tpl.php": "php",
+        "*.test": "php",
+        "*.php": "php",
+        "*.info": "ini",
+    },
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact",
+        "twig": "html"
+    },
+    "emmet.triggerExpansionOnTab": true,
+    "emmet.showSuggestionsAsSnippets": true,
+    "emmet.syntaxProfiles": {
+        "html": {
+            "attr_quotes": "single",
+            // Comment filter surrounds important tags with comments
+            "filters": "c",
+        },
+        "jsx": {
+            "self_closing_tag": true,
+        },
+    },
+    "editor.snippetSuggestions": "top",
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+    "html.format.enable": true,
+    "html.format.wrapLineLength": 80,
+    "telemetry.enableTelemetry": false,
+    /* Empty Indent */
+    "emptyIndent.removeIndent": true,
+    "emptyIndent.highlightIndent": false,
+    "emptyIndent.highlightColor": "rgba(246,36,89,0.6)",
+    "phpcs.enable": true,
+    "phpcs.standard": "/Users/tylersteimle/.composer/vendor/drupal/coder/coder_sniffer/Drupal",
+    /* PHP Validation */
+    "php.validate.enable": true,
+    // "php.validate.executablePath": "/path/to/php",
+    "php.validate.run": "onType",
+    "php.suggest.basic": false,
+    // Intelephense and Drupal >8 only. This should be set to the path to core/index.php.
+    "intelephense.environment.documentRoot": "core/index.php",
+    /* PHP DocBlocker */
+    "php-docblocker.gap": true,
+    "php-docblocker.useShortNames": true,
+    /* Composer */
+    "composer.enabled": true,
+    "composer.executablePath": "/usr/local/bin/composer",
+    "files.removeFinalNewlines": true,
+    "editor.renderControlCharacters": false,
+    "workbench.startupEditor": "welcomePage",
+    "terminal.integrated.shell.osx": "/bin/zsh",
+    "jest.restartJestOnSnapshotUpdate": true,
+    "jest.disabledWorkspaceFolders": [
+    ],
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "gitlens.codeLens.scopes": [
+        "document",
+        "containers",
+        "blocks"
+    ],
+    "gitlens.codeLens.recentChange.command": "gitlens.toggleFileBlame",
+    "gitlens.statusBar.alignment": "left",
+    "gitlens.views.repositories.enabled": true,
+    "gitlens.blame.heatmap.location": "left",
+    "gitlens.changes.locations": [
+        "gutter",
+        "overview"
+    ],
+    "gitlens.mode.active": "review",
+    "workbench.iconTheme": "intalicons",
+    "workbench.colorTheme": "Devoid",
+    "window.zoomLevel": -1,
+}

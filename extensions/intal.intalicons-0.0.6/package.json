@@ -1,0 +1,40 @@
+{
+	"name": "intalicons",
+	"displayName": "Intal Icons",
+	"description": "Intal Icons for Visual Studio Code",
+	"version": "0.0.6",
+	"publisher": "intal",
+	"license": "MIT",
+	"icon": "icons/logo.png",
+	"scripts": {
+		"publish": "vsce publish"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://gitlab.com/jesus-aldrete/intal"
+	},
+	"engines": {
+		"vscode": "^1.48.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"galleryBanner": {
+		"color": "#1F2335",
+		"theme": "dark"
+	},
+	"contributes": {
+		"iconThemes": [
+			{
+				"id": "intalicons",
+				"label": "Intal-Icons",
+				"path": "./Intal-Icons.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "1a2774b3-f75d-452d-a816-fd3a05a5e1d8",
+		"publisherId": "30f52097-24ca-433b-bd3d-c85e404753da",
+		"publisherDisplayName": "intal"
+	}
+}

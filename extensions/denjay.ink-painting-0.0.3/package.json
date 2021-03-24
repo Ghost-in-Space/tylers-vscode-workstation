@@ -1,0 +1,36 @@
+{
+	"name": "ink-painting",
+	"displayName": "Ink Painting",
+	"description": "A Warm Color Theme For Visual Studio Code.",
+	"version": "0.0.3",
+	"engines": {
+		"vscode": "^1.32.0"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/denjay/ink-painting"
+	},
+	"publisher": "denjay",
+	"icon": "logo.png",
+	"galleryBanner": {
+		"color": "#8A4572",
+		"theme": "light"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Ink Painting",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Ink Painting-color-theme.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "eb2195d3-aa68-4c4f-bfce-6adc6967cbe8",
+		"publisherId": "bceae8d9-f5c7-41b9-bbed-fb346b2c0a41",
+		"publisherDisplayName": "denjay"
+	}
+}

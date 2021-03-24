@@ -1,0 +1,44 @@
+{
+	"name": "theme-firefox-devtools-italic",
+	"displayName": "Firefox DevTools Italic",
+	"description": "Syntax coloring based on Firefox Developer Tools coloring with support for italics",
+	"version": "0.1.4",
+	"publisher": "steveblue",
+	"categories": [
+		"Themes"
+	],
+	"keywords": [
+		"dark",
+		"firefox"
+	],
+	"icon": "assets/icon.png",
+	"galleryBanner": {
+		"color": "#101046",
+		"theme": "dark"
+	},
+	"engines": {
+		"vscode": "*"
+	},
+	"contributes": {
+		"themes": [
+			{
+				"label": "Firefox Devtools Italic",
+				"uiTheme": "vs-dark",
+				"path": "./themes/firefox_devtools_italic.json"
+			}
+		]
+	},
+	"bugs": {
+		"url": "https://github.com/steveblue/theme-firefox-devtools/issues"
+	},
+	"homepage": "https://github.com/steveblue/theme-firefox-devtools/blob/master/README.md",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/steveblue/theme-firefox-devtools"
+	},
+	"__metadata": {
+		"id": "b8fa70c1-5425-4ef8-8335-73d99d0c4bb8",
+		"publisherId": "0654c1d4-98ac-44b9-a9a1-004413d052c5",
+		"publisherDisplayName": "Steve Belovarich"
+	}
+}

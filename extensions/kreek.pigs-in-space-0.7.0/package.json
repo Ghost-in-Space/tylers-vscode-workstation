@@ -1,0 +1,28 @@
+{
+	"name": "pigs-in-space",
+	"displayName": "Pigs in Space",
+	"description": "A dark color theme designed to be easy on the eyes. Inspired by Solarized with a pastel twist.",
+	"version": "0.7.0",
+	"publisher": "kreek",
+	"repository": "https://github.com/kreek/pigs-in-space-vscode-theme.git",
+	"engines": {
+		"vscode": "^1.40.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Pigs in Space",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Pigs in Space-color-theme.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "e056ac42-3d78-4676-9854-d6356d940ee1",
+		"publisherId": "1e54fb00-e385-45f1-b6ce-98a020a4d526",
+		"publisherDisplayName": "kreek"
+	}
+}

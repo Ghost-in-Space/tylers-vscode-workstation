@@ -1,0 +1,59 @@
+{
+	"name": "inheritance",
+	"displayName": "Inheritance",
+	"description": "This is the best theme for VSCODE",
+	"version": "0.3.0",
+	"author": "César Aparicio [@icao]",
+	"publisher": "icao",
+	"license": "MIT",
+	"engines": {
+		"vscode": "^1.44.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"galleryBanner": {
+		"color": "#111111",
+		"theme": "dark"
+	},
+	"keywords": [
+		"VSCode",
+		"Themes",
+		"Dark Theme",
+		"Darker Theme",
+		"Darker",
+		"Code",
+		"Accessible Theme",
+		"Hight Contrast",
+		"Inheritance"
+	],
+	"icon": "logo-theme.png",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/icao/inheritance"
+	},
+	"contributes": {
+		"themes": [
+			{
+				"label": "Inheritance 🐱‍👤",
+				"uiTheme": "vs-dark",
+				"path": "./themes/inheritance-color-theme.json"
+			},
+			{
+				"label": "Inheritance 🐱‍👤 Focus Mode ",
+				"uiTheme": "vs-dark",
+				"path": "./themes/inheritance-color-theme-focus-mode.json"
+			},
+			{
+				"label": "Inheritance 🐱‍👤 (No Italics)",
+				"uiTheme": "vs-dark",
+				"path": "./themes/inheritance-color-theme-no-italics.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "038a6f0e-2ea5-46f1-9021-747ce9613512",
+		"publisherId": "dfc3c401-c461-44f4-8423-4e9b62464e94",
+		"publisherDisplayName": "icao"
+	}
+}

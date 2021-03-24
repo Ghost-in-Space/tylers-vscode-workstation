@@ -1,0 +1,32 @@
+{
+	"name": "react-god-theme",
+	"displayName": "ReactGodTheme",
+	"description": "Theme for true reactGods",
+	"version": "1.0.4",
+	"publisher": "h3h394",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/h3h394/reactGodTheme"
+	},
+	"icon": "icon.png",
+	"engines": {
+		"vscode": "^1.47.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "ReactGodTheme",
+				"uiTheme": "vs-dark",
+				"path": "./themes/ReactGodTheme-color-theme.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "6b7e270c-db40-4caa-ba4e-47b71a23a78e",
+		"publisherId": "3b080743-4f5d-4397-8ce6-f1eb7fd3bd67",
+		"publisherDisplayName": "h3h394"
+	}
+}

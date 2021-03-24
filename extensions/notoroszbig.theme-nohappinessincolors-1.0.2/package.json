@@ -1,0 +1,38 @@
+{
+	"name": "theme-nohappinessincolors",
+	"displayName": "No Happiness in Colors (Minimal Dark Theme)",
+	"description": "There is no happiness in colors. A minimal, dark syntax theme for Visual Studio Code that doesn't make your code look like a parrot.",
+	"version": "1.0.2",
+	"publisher": "notoroszbig",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/notoroszbig/theme-nohappinessincolors.git"
+	},
+	"bugs": "https://github.com/notoroszbig/theme-nohappinessincolors/issues",
+	"engines": {
+		"vscode": "^1.12.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"keywords": [
+		"dark",
+		"theme",
+		"minimal",
+		"gray"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "No Happiness in Colors Theme",
+				"uiTheme": "vs-dark",
+				"path": "./themes/nohappinessincolors.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "23afff0c-50f6-4788-8226-e32d379643f8",
+		"publisherId": "cbdbd181-63c3-4d70-b45d-89a1bd1f16ac",
+		"publisherDisplayName": "Zach Orosz"
+	}
+}
