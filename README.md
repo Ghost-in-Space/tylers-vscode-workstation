@@ -35,4 +35,39 @@ C:\Users\username\.vscode\extensions
 ```
 
 ## Setting Up Jest
-Jest might not be intuitive to set up depending on your project's structure.
+[Jest](https://marketplace.visualstudio.com/items?itemName=Orta.vscode-jest) might not be intuitive to set up depending on your project's structure. The reason why is that it needs to know where to run tests from. I've found that one workflow for accomplishing successful configuration is to do the following:
+
+1. Install and enable the [Jest](https://marketplace.visualstudio.com/items?itemName=Orta.vscode-jest) extension if you have not already.
+2. On Mac, `Shift + Command + D` will open up the Run and Debug sidebar. (You can always click the button as well.)
+![readme run and debug](./docs/assets/readme_run-and-debug.png)
+3. If you click the big blue "Run and Debug" button the extension will bring up a list of options. You need to select the type of config you want to use for your project. The Jest extension should be able to auto-identify options relevant to your open project, directory, or workspace. In my case I used "Jest: create-react-app (ejected)" this time because the app I'm working in used the Create React App project and it was ejected at one point.
+
+![readme config options example](./docs/assets/readme_config-options-example.png)
+
+This is what my particular `.vscode/launch.json` config file looks like:
+
+```JSON
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "name": "tylers-jest-ejected",
+      "request": "launch",
+      "program": "${workspaceFolder}/aem/react-app/scripts/test",
+      "args": [
+        "--env=jsdom",
+        "--runInBand"
+      ],
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
+      "cwd": "${workspaceFolder}/aem/react-app",
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen",
+      "disableOptimisticBPs": true
+    }
+  ]
+}
+
+```
