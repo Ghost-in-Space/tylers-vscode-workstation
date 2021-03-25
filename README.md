@@ -7,6 +7,7 @@ Hello! Welcome. These are the settings, keybindings, and extensions I use in VSC
 ## Table of Contents
  - [MacOS](#macos)
  - [Windows 10](#windows-10)
+ - [Setting up Jest](#setting-up-jest)
 
 ## MacOS
 You'll be able to add both `settings.json` and `keybindings.json` in this location:
@@ -33,3 +34,5 @@ You'll be able to add extensions to this location:
 C:\Users\username\.vscode\extensions
 ```
 
+## Setting Up Jest
+Jest might not be intuitive to set up depending on your project's structure.

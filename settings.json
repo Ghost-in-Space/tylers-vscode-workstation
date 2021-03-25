@@ -80,7 +80,8 @@
     "workbench.startupEditor": "welcomePage",
     "terminal.integrated.shell.osx": "/bin/zsh",
     "jest.restartJestOnSnapshotUpdate": true,
-    "jest.disabledWorkspaceFolders": [],
+    "jest.disabledWorkspaceFolders": [
+    ],
     "[javascript]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
@@ -97,8 +98,7 @@
         "overview"
     ],
     "workbench.iconTheme": "intalicons",
-    "workbench.colorTheme": "Devoid",
-    "window.zoomLevel": 1,
+    "workbench.colorTheme": "Inheritance 🐱‍👤",
     "githubIssues.queries": [
         {
             "label": "My Issues",
@@ -108,5 +108,5 @@
             "label": "Created Issues",
             "query": "author:${user} state:open repo:${owner}/${repository} sort:created-desc"
         }
-    ]
+    ],
 }
