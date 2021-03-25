@@ -7,7 +7,7 @@
     "sync.autoDownload": true,
     "sync.quietSync": true,
     "sync.gist": "2e34f2785ccdb5d4eaa8303fe035201e",
-    "editor.renameOnType": true,
+    "editor.linkedEditing": true,
     "editor.minimap.enabled": true,
     "explorer.confirmDelete": false,
     "breadcrumbs.enabled": true,
@@ -80,8 +80,7 @@
     "workbench.startupEditor": "welcomePage",
     "terminal.integrated.shell.osx": "/bin/zsh",
     "jest.restartJestOnSnapshotUpdate": true,
-    "jest.disabledWorkspaceFolders": [
-    ],
+    "jest.disabledWorkspaceFolders": [],
     "[javascript]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
@@ -92,14 +91,22 @@
     ],
     "gitlens.codeLens.recentChange.command": "gitlens.toggleFileBlame",
     "gitlens.statusBar.alignment": "left",
-    "gitlens.views.repositories.enabled": true,
     "gitlens.blame.heatmap.location": "left",
     "gitlens.changes.locations": [
         "gutter",
         "overview"
     ],
-    "gitlens.mode.active": "review",
     "workbench.iconTheme": "intalicons",
     "workbench.colorTheme": "Devoid",
-    "window.zoomLevel": -1,
+    "window.zoomLevel": 1,
+    "githubIssues.queries": [
+        {
+            "label": "My Issues",
+            "query": "default"
+        },
+        {
+            "label": "Created Issues",
+            "query": "author:${user} state:open repo:${owner}/${repository} sort:created-desc"
+        }
+    ]
 }
