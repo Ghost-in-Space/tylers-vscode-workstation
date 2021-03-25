@@ -8,6 +8,7 @@ Hello! Welcome. These are the settings, keybindings, and extensions I use in VSC
  - [MacOS](#macos)
  - [Windows 10](#windows-10)
  - [Setting up Jest](#setting-up-jest)
+ - [Final Recommendations](#final-recommendations)
 
 ## MacOS
 You'll be able to add both `settings.json` and `keybindings.json` in this location:
@@ -71,3 +72,13 @@ This is what my particular `.vscode/launch.json` config file looks like:
 }
 
 ```
+
+## Final Recommendations
+
+* [ ] Add `.vscode/` to your [Gitignore](https://github.com/github/gitignore) file.
+
+Read up on these very helpful features of VSCode to maximize your health, happiness, and productivity.
+* [ ] [Settings Sync](https://code.visualstudio.com/docs/editor/settings-sync)
+* [ ] [Workspaces](https://code.visualstudio.com/docs/editor/workspaces)
+* [ ] [Multi-root Workspaces](https://code.visualstudio.com/docs/editor/multi-root-workspaces)
+* [ ] [Debugging](https://code.visualstudio.com/docs/editor/debugging)
